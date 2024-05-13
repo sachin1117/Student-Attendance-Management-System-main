@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Management</title>
+</head>
+<body>
+
+<div class="studentData">
+    <form action="" id="form1">
+        <input type="text" placeholder="Name" id="name" required>
+        <input type="number" placeholder="Number" id="number" required>
+        <input type="text" placeholder="City" id="city" required>
+        <input type="number" placeholder="Roll No" id="rollNo" required>
+        <input type="submit" class="btn btn-warning">
+    </form>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Number</th>
+            <th>City</th>
+            <th>Roll No.</th>
+            <th>Attendance</th>
+            <th>Action</th> 
+        </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+</table>
+
+<script src="./student.js"></script>
+</body>
+</html>
